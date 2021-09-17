@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://lh3.googleusercontent.com/proxy/weAObstKxbW-sBDYa8Bn-6W0eBAteCJnqmR2dNVW1LUzYrpj0N6CS49mF0l7Nmr1KMeE0CNRxXf696nsqCLExxz4kTPKUYTlSTL6lTulOCV7Tjoi_cUba2JBgiuZ2v_-s4PDv3rL290);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.square {
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  height: 16px;
+  width: 16px;
+  margin: 2px;
+  transition: 2s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}

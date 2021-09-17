@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://static2.bigstockphoto.com/9/3/1/large1500/13933064.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  margin: auto;
+}
+
+.empty {
+  border: 1px solid black;
+  width: 9vw;
+  height: 18vh;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.fill {
+  width: 9vw;
+  background-image: url(https://previews.123rf.com/images/yupiramos/yupiramos1607/yupiramos160716626/60042455-cara-feliz-de-dibujos-animados-icono-car%C3%A1cter-del-vector-illustation.jpg);
+  height: 18vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hold {
+  border: 1px;
+}
+
+.hovered {
+  border: dashed;
+}
+.invisible {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
